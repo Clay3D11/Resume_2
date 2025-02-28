@@ -27,6 +27,10 @@ h1
 {
 	color:rgba(0,0,0,.75);
 }
+h2 {
+	color:rgba(0,0,0,.75);
+	font-size: 17px;
+}
 
 /* .wrapper
 {
@@ -71,7 +75,7 @@ h1
 
 .me-img
 {
-	background:url(https://media-exp1.licdn.com/dms/image/C4E03AQGnLq_IB_mf8Q/profile-displayphoto-shrink_400_400/0/1631022739752?e=1648684800&v=beta&t=eICUjHeH_g9GQEItmEMK1j2gCADwqfjrlccSD_5za58) no-repeat center center ;
+	background:url(./img/cv.png) no-repeat center center ;
 	background-size:100%;
   background-position:0px;
 	border-radius:100%;
@@ -119,12 +123,12 @@ h1
 
 .inner h1
 {
-	font-size:1.75em;
+	font-size:2em;
 }
 
 .inner p
 {
-	color:rgba(0,0,0,.5);
+	color:rgba(0, 0, 0, 0.5);
   font-size: 1.3em;
 }
 
@@ -145,6 +149,7 @@ ul
 	/* margin-top:-10px; */
 	max-width:570px;
 	padding:0;
+	font-size:19px;
 }
 
 .skill-set li
@@ -173,8 +178,9 @@ ul
   margin-top:0px !important;
   li {
 	font-size: 2em;
-	font-family: ;
+	/* font-family: ; */
   }
+}
 }
 
 @media screen and (max-width: 75em) {
