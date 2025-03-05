@@ -7,8 +7,15 @@
 	font-size:100%;
 } */
 
-body
-{
+
+html {
+  scroll-behavior: smooth;
+  transition: ease-in-out all 1.5s;
+}
+
+
+
+body{
 	/* -webkit-font-smoothing:antialiased; */
 	color:#333332;
 	/* font-family:Lora, serif; */
@@ -37,6 +44,17 @@ h2 {
 	height:100%;
 } */
 
+
+
+
+
+
+/* LEft Side */
+/* LEft Side */
+/* LEft Side */
+/* LEft Side */
+/* LEft Side */
+
 .left
 {
 	background-color:rgba(0,0,0,.095);
@@ -50,6 +68,60 @@ h2 {
 	
   
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Right Side */
+/* Right Side */
+/* Right Side */
+/* Right Side */
+/* Right Side */
+
 
 .right
 {
@@ -163,34 +235,6 @@ ul
 	padding:10px;
 	text-align:justify;
   
-}
-
-@media screen and (max-width: 48em) {
-	.right,.left
-	{
-		float:none;
-    position:relative !important;
-		width:100%;
-    min-height:500px;
-	}
-  .handmade {
-  text-align:center !important;
-  margin-top:0px !important;
-  li {
-	font-size: 2em;
-	/* font-family: ; */
-  }
-}
-}
-
-@media screen and (max-width: 75em) {
-    body
-{ font-size:16px;}
-}
-
-@media screen and (max-width: 60em) {
-    body
-{ font-size:14px;}
 }
 
 .clearfix:after {
