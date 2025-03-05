@@ -1,0 +1,70 @@
+header {
+  /* background-image: url(IMG/starts.gif); */
+  color: #fff;
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* width: 100%; */
+  z-index: 100;
+  /* box-shadow: 0 2px 4px rgb(0, 0, 0); */
+
+ /* width: 32.1%; */
+ /* height: 100px; */
+
+
+ background: rgba(255, 255, 255, 0.2); /* Semi-transparent */
+   
+ backdrop-filter: blur(10px); /* Blur effect */
+   
+ -webkit-backdrop-filter: blur(10px); /* Safari support */
+
+
+
+
+}
+
+
+header nav {
+  display: flex;
+  justify-content: space-evenly;
+
+ 
+}
+
+
+
+header nav a {
+  color: #000000;
+  text-decoration: none;
+  margin-right: 2.5rem;
+  font-size: 1.5rem;
+  /* font-family: "Dancing Script"; */
+  font-weight: 700;
+  text-decoration: underline;
+
+  /* background: linear-gradient(to right,  #ff00eaf6, #21f3e2, #ff00eb); */
+
+  background: linear-gradient(to right, #fffffff6, #00ff37, #ffffff);
+  text-shadow: 0 0 20px #000000, 0 0 40px #000000;
+
+
+
+
+  /* -webkit-text-fill-color: transparent; */
+  -webkit-background-clip: text;
+
+
+
+}
+header nav a:hover {
+  /* color: #e20d0d; */
+  
+  font-weight: 700;
+  background: linear-gradient(to right,  #ffffff, #ffffff, #ffffff);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+ 
+   
+
+}
